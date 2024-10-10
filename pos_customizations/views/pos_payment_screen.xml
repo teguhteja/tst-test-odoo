@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="PSNumpadInputButtonCustomize" t-inherit="point_of_sale.PaymentScreenNumpad" t-inherit-mode="extension" owl="1">
+        <xpath expr="//PSNumpadInputButton[@value='+10']" position="attributes">
+            <attribute name="value">+10000</attribute>
+            <attribute name="text">+10,000</attribute>
+        </xpath>
+        <xpath expr="//PSNumpadInputButton[@value='+20']" position="attributes">
+            <attribute name="value">+50000</attribute>
+            <attribute name="text">+50,000</attribute>
+        </xpath>
+        <xpath expr="//PSNumpadInputButton[@value='+50']" position="attributes">
+            <attribute name="value">+100000</attribute>
+            <attribute name="text">+100,000</attribute>
+        </xpath>
+    </t>
+</templates>
